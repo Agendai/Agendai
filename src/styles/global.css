@@ -1,0 +1,133 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Quicksand:wght@400;500&display=swap');
+/* Fontes */
+
+/* Variaveis */
+
+:root {
+  --max-site-width: 988px;
+  --padding-default: 20px;
+
+  --bg-light: #FCFCFC;
+  --bg-dark: #262626;
+
+  --text-light: #fff;
+  --text-dark: #282828;
+
+  --btn-bg-blue: #58AFC4;
+  --btn-border-transparent: #F2F2F2;
+  --btn-bg-transparent: transparent;
+  /* --btn-bg- */
+}
+
+/* Variaveis */
+
+/* Reset */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', 'Helvetica', sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  text-align: center;
+  text-transform: initial;
+
+  font-family: 'Montserrat', 'helvetica' sans-serif;
+  font-weight: 700;
+  font-size: 4.8rem;
+}
+
+/* Reset */
+
+/* Helpers */
+
+.dark {
+  background-color: var(--bg-dark);
+}
+
+.wrapper {
+  margin: 0 auto;
+  position: relative;
+  max-width: var(--max-site-width);
+  padding: 0 var(--padding-default);
+}
+
+.separador {
+  height: 70vh;
+}
+/* Helpers */
+
+/* Componentes */
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  font-family:'Montserrat', 'helvetica', sans-serif;
+  font-weight: 600;
+  width: 150px;
+}
+
+.btn-blue{
+  background-color: var(--btn-bg-blue);
+  color: var(--text-light);
+}
+
+.btn-transparent {
+  background-color: transparent;
+  border: 1px solid var(--btn-border-transparent);
+  background-color: var(--btn-bg-transparent);
+  color: var(--btn-border-transparent);
+
+}
+/* Componentes */
+
+/* Header */
+  .header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    height: 85px;
+  }
+
+  .header .wrapper .menu {
+    display: flex;
+    
+  }
+/* Header */
+
+/* Footer */
+.footer .wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 3.2rem;
+  height: 100vh;
+  padding: var(--padding-default);
+}
+.footer .wrapper a {
+  color: var(--text-light);
+  font-weight: 600;
+}
+/* Footer */
