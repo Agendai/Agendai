@@ -9,7 +9,7 @@
   --padding-default: 20px;
 
   --bg-light: #FCFCFC;
-  --bg-dark: #262626;
+  --bg-dark: #282828;
 
   --text-light: #fff;
   --text-dark: #282828;
@@ -41,6 +41,10 @@ html,body {
 
 a {
   text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
 }
 
 img {
@@ -109,12 +113,12 @@ h2 {
     justify-content: space-between;
     align-items: center;
     z-index: 1;
-    height: 85px;
+    height: 70px;
   }
 
   .header .wrapper .menu {
     display: flex;
-    
+    gap: var(--padding-default);
   }
 /* Header */
 
