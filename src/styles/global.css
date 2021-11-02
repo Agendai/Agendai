@@ -3,13 +3,12 @@
 /* Fontes */
 
 /* Variaveis */
-
 :root {
   --max-site-width: 988px;
   --padding-default: 20px;
 
   --bg-light: #FCFCFC;
-  --bg-dark: #262626;
+  --bg-dark: #282828;
 
   --text-light: #fff;
   --text-dark: #282828;
@@ -17,13 +16,10 @@
   --btn-bg-blue: #58AFC4;
   --btn-border-transparent: #F2F2F2;
   --btn-bg-transparent: transparent;
-  /* --btn-bg- */
 }
-
 /* Variaveis */
 
 /* Reset */
-
 * {
   box-sizing: border-box;
 }
@@ -55,11 +51,9 @@ h2 {
   font-weight: 700;
   font-size: 4.8rem;
 }
-
 /* Reset */
 
 /* Helpers */
-
 .dark {
   background-color: var(--bg-dark);
 }
@@ -71,9 +65,9 @@ h2 {
   padding: 0 var(--padding-default);
 }
 
-.separador {
+/* .separador {
   height: 70vh;
-}
+} */
 /* Helpers */
 
 /* Componentes */
@@ -109,7 +103,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
     z-index: 1;
-    height: 85px;
+    height: 70px;
   }
 
   .header .wrapper .menu {
@@ -123,7 +117,7 @@ h2 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   font-size: 3.2rem;
-  height: 100vh;
+  /* height: 100vh; */
   padding: var(--padding-default);
 }
 .footer .wrapper a {
