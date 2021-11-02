@@ -39,6 +39,10 @@ a {
   text-decoration: none;
 }
 
+ul, li {
+  list-style: none;
+}
+
 img {
   max-width: 100%;
 }
@@ -108,7 +112,7 @@ h2 {
 
   .header .wrapper .menu {
     display: flex;
-    
+    gap: var(--padding-default);
   }
 /* Header */
 
