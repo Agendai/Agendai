@@ -5,6 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "jquery": "^3.6.0",
+    "slick": "^1.8.1",
+    "slick-carousel": "^1.8.1",
     "swiper": "^7.2.0"
   },
   "scripts": {
