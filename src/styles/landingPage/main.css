@@ -1,0 +1,35 @@
+@import url('../global.css');
+
+/* Hero Section */
+#hero .swiper {
+  width: 100%;
+}
+
+.swiper .swiper-wrapper .swiper-slide {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5.6rem;
+  font-weight: 600;
+}
+
+.swiper .swiper-wrapper .swiper-slide img {
+  width: 100%;
+}
+
+.swiper .swiper-wrapper .swiper-slide .content-text {
+  position: absolute;
+  color: var(--text-light);
+}
+/* Hero Section */
+
+/* Recommended Section */
+#recommended {
+  margin-bottom: 160px;
+}
+
+#recommended .wrapper .glider-contain .glider .slide{
+  margin-right: 20px;
+}
+/* Recommended Section */
