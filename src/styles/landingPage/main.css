@@ -37,3 +37,23 @@
   margin-right: 30px;
 }
 /* Recommended Section */
+
+/* Services Section */
+#services {
+  margin: 160px 0;
+}
+
+#services h2 {
+  margin-bottom: 56px;
+}
+
+#services .wrapper .service-contain {
+  display: flex;
+  align-items: center;
+}
+
+#services .wrapper .service-contain span {
+  font-size: 2.4rem;
+  line-height: 42.8px;
+}
+/* Services Section */

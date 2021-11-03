@@ -62,6 +62,10 @@ h2 {
   background-color: var(--bg-dark);
 }
 
+.text-dark {
+  color: var(--text-dark);
+}
+
 .wrapper {
   margin: 0 auto;
   position: relative;
