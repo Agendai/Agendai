@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="styles/global.css" />
   <link rel="stylesheet" href="styles/landingPage/main.css" />
   <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.min.css">
+
+  <link rel="stylesheet" href="lib/Glider.js-master/glider.css">
+
   <title>Agendaí</title>
 </head>
 
@@ -34,7 +37,7 @@
         </div>
         <div class="swiper-slide"><img src="assets/images/hero-image.jpg" alt=""></div>
         <div class="swiper-slide"><img src="assets/images/hero-image.jpg" alt=""></div>
-        ...
+        <div class="swiper-slide"><img src="assets/images/hero-image.jpg" alt=""></div>
       </div>
       <div class="swiper-pagination"></div>
 
@@ -43,6 +46,28 @@
 
       <div class="swiper-scrollbar"></div>
     </div>
+  </section>
+
+  <section id="recommended">
+    <div class="wrapper">
+      <h2>Recomendados</h2>
+      <div class="glider-contain">
+        <div class="glider">
+         <img src="assets/images/recommended-image-1.jpg" alt="">
+          <img src="assets/images/recommended-image-2.jpg" alt="">
+          <img src="assets/images/recommended-image-3.jpg" alt="">
+          <img src="assets/images/recommended-image-1.jpg" alt="">
+          <img src="assets/images/recommended-image-2.jpg" alt="">
+        </div>
+        <button aria-label="Anterior" class="glider-prev">«</button>
+        <button aria-label="Proximo" class="glider-next">»</button>
+        <div role="tablist" class="dots"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    
   </section>
 
   <footer class="footer dark">
@@ -54,7 +79,11 @@
     </div>
   </footer>
 
-  <script src="../node_modules/swiper/swiper-bundle.min.js" defer></script>
+
+
+  <script src="lib/Glider.js-master/glider.js" async></script>
+  <script src="js/landingPage/carouselRecommended.js" async></script>
+  <script src="../node_modules/swiper/swiper-bundle.min.js" async></script>
   <script src="js/landingPage/carousel.js" defer></script>
 </body>
 

@@ -26,10 +26,14 @@
 
 /* Recommended Section */
 #recommended {
-  margin-bottom: 160px;
+  margin: 160px 0;
 }
 
-#recommended .wrapper .glider-contain .glider .slide{
-  margin-right: 20px;
+#recommended .wrapper h2 {
+  margin-bottom: 120px;
+}
+
+#recommended .wrapper .glider-contain .glider img {
+  margin-right: 30px;
 }
 /* Recommended Section */
