@@ -16,6 +16,10 @@
 .section-heading-padding {
   padding-bottom: 56px;
 }
+
+.section-column-gap {
+  padding: var(--padding-default);
+}
 /* Variaveis e classes reutilizaveis */
 
 /* Hero Section */
