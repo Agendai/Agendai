@@ -1,5 +1,27 @@
 @import url('../global.css');
 
+/* Variaveis e classes reutilizaveis */
+:root {
+  
+}
+.text-format-conent {
+  font-size: 2.4rem;
+  line-height: 2em;
+}
+
+.section-separator {
+  padding: 72px 0;
+}
+
+.section-heading-padding {
+  padding-bottom: 56px;
+}
+
+.section-column-gap {
+  padding: var(--padding-default);
+}
+/* Variaveis e classes reutilizaveis */
+
 /* Hero Section */
 #hero .swiper {
   width: 100%;
@@ -14,10 +36,6 @@
   font-weight: 600;
 }
 
-.swiper .swiper-wrapper .swiper-slide img {
-  width: 100%;
-}
-
 .swiper .swiper-wrapper .swiper-slide .content-text {
   position: absolute;
   color: var(--text-light);
@@ -25,10 +43,6 @@
 /* Hero Section */
 
 /* Recommended Section */
-#recommended {
-  margin: 160px 0;
-}
-
 #recommended .wrapper h2 {
   margin-bottom: 120px;
 }
@@ -39,21 +53,19 @@
 /* Recommended Section */
 
 /* Services Section */
-#services {
-  margin: 160px 0;
-}
-
-#services h2 {
-  margin-bottom: 56px;
-}
-
 #services .wrapper .service-contain {
   display: flex;
   align-items: center;
+  column-gap: var(--padding-default);
 }
 
-#services .wrapper .service-contain span {
-  font-size: 2.4rem;
-  line-height: 42.8px;
-}
 /* Services Section */
+
+/* Service Company Section */
+ #service-company  .wrapper .service-company-contain {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  column-gap: var(--padding-default);
+}
+/* Service Company Section */
