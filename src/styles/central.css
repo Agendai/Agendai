@@ -5,11 +5,6 @@ body {
 
 /*Header*/
 
-
-.logo {
-    width: 15%;
-}
-
 .exit {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -25,12 +20,12 @@ body {
     color: var(--btn-bg-blue);
     font-size: 3rem;
 
-    margin-right: 0.2em;
+    margin-right: 10px;
 }
 
 /*Main*/
 main {
-    top: 5em;
+    top: 50px;
 }
 /*Logo e Texto*/
 .logo-text {
@@ -43,7 +38,7 @@ main {
 .logo-company {
     width: 231px;
     height: 231px;
-    margin-top: 4em;
+    margin-top: 40px;
     border-radius: 50%;
 }
 
@@ -62,7 +57,7 @@ main {
 
     font-family: 'Montserrat';
 
-    margin-bottom: 25em;
+    margin-bottom: 250px;
 }
 
 .card {
@@ -70,7 +65,7 @@ main {
     height: 220px;
     
     color: var(--bg-dark);
-    margin: 1em;
+    margin: 25px;
 
     font-size: 3.5rem;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
