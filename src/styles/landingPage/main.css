@@ -69,3 +69,15 @@
 /* Service Scheduling Section */
 /* Service Scheduling Section */
 
+/* Objective Section */
+#objective .wrapper .objective-contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#objective .wrapper .objective-contain span {
+  margin-top: 1em;
+  text-align: justify;
+}
+/* Objective Section */
