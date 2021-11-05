@@ -19,6 +19,13 @@
 }
 /* Variaveis */
 
+/* Classes reutilizaveis */
+.d-flex-justify-center {
+  display: flex;
+  justify-content: center;
+}
+/* Classes reutilizaveis */
+
 /* Reset */
 * {
   box-sizing: border-box;
