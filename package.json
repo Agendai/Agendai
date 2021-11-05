@@ -4,9 +4,6 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "jquery": "^3.6.0",
-    "slick": "^1.8.1",
-    "slick-carousel": "^1.8.1",
     "swiper": "^7.2.0"
   },
   "scripts": {
@@ -14,13 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DemoDayG3/Agendai.git"
+    "url": "git+https://github.com/Agendai/Agendai.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DemoDayG3/Agendai/issues"
+    "url": "https://github.com/Agendai/Agendai/issues"
   },
-  "homepage": "https://github.com/DemoDayG3/Agendai#readme"
+  "homepage": "https://github.com/Agendai/Agendai/blob/main/README.md"
 }

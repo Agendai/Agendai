@@ -19,12 +19,12 @@
 }
 /* Variaveis */
 
-/* Classes */
+/* Classes reutilizaveis */
 .d-flex-justify-center {
   display: flex;
   justify-content: center;
 }
-/* Classes */
+/* Classes reutilizaveis */
 
 /* Reset */
 * {
