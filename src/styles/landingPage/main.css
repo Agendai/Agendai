@@ -4,10 +4,6 @@
 :root {
   
 }
-.d-flex-justify-center-content {
-  display: flex;
-  justify-content: center;
-}
 
 .text-format-conent {
   font-size: 2.4rem;
