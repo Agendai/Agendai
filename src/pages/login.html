@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
   <link rel="stylesheet" href="../styles/loginPage/main.css">
   <title>Agendaí - Login</title>
 </head>
+
 <body>
   <header class="header dark">
     <div class="wrapper">
@@ -19,13 +21,43 @@
     </div>
   </header>
 
-  <main>
-    <section id="login-page">
-      <div class="wrapper">
-        <div class="container "></div>
+  <section id="login-page">
+    <div class="wrapper ">
+      <div class="container d-flex-justify-center">
+        <section class="aside">
+          <img src="../assets/images/Login&Register/Login/login-image.svg" alt="Imagem criação de conta">
+        </section>
+
+        <section class="main">
+          <div class="login-container">
+            <p class="title">Entre com sua conta</p>
+
+            <form action="" class="form-control">
+              <div class="form-email">
+                <p>E-mail</p>
+                <input type="text" placeholder="Digite seu email">
+              </div>
+              <div class="form-control">
+                <p>Senha</p>
+                <input type="password" placeholder="Digite sua senha">
+                <p><a href="">Esqueci minha senha</a></p>
+              </div>
+
+              <div class="buttons">
+                <button class="register-submit">Registrar</button>
+                <button class="login-submit">Entrar</button>
+              </div>
+              <p>ou</p>
+
+              <button class="google-login"><img src="../assets/images/Login&Register/Login/google.svg"
+                  alt="Logo do google">Login com Google</button>
+
+            </form>
+          </div>
+        </section>
       </div>
-    </section>
-  </main>
+    </div>
+  </section>
 
   <footer class="footer dark">
     <div class="wrapper">
@@ -36,4 +68,5 @@
     </div>
   </footer>
 </body>
+
 </html>
