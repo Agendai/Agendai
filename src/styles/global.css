@@ -19,6 +19,13 @@
 }
 /* Variaveis */
 
+/* Classes */
+.d-flex-justify-center-content {
+  display: flex;
+  justify-content: center;
+}
+/* Classes */
+
 /* Reset */
 * {
   box-sizing: border-box;
@@ -139,3 +146,13 @@ h2 {
   font-weight: 600;
 }
 /* Footer */
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 30%;
+  }
+
+  .footer .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
