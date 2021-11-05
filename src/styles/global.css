@@ -29,6 +29,8 @@
 /* Reset */
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -36,11 +38,8 @@ html {
 }
 
 html,body {
-  margin: 0;
-  padding: 0;
   scroll-behavior: smooth;
   font-family: 'Quicksand', 'Helvetica', sans-serif;
-
   background: var(--bg-light);
 }
 
