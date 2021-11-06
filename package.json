@@ -2,9 +2,9 @@
   "name": "agendai",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "dependencies": {
-    "jquery": "^3.6.0",
+    "bootstrap-icons": "^1.7.0",
     "swiper": "^7.2.0"
   },
   "scripts": {
@@ -12,13 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DemoDayG3/Agendai.git"
+    "url": "git+https://github.com/Agendai/Agendai.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DemoDayG3/Agendai/issues"
+    "url": "https://github.com/Agendai/Agendai/issues"
   },
-  "homepage": "https://github.com/DemoDayG3/Agendai#readme"
+  "homepage": "https://github.com/Agendai/Agendai/blob/main/README.md"
 }

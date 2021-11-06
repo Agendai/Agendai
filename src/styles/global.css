@@ -3,27 +3,30 @@
 /* Fontes */
 
 /* Variaveis */
-
 :root {
   --max-site-width: 988px;
   --padding-default: 20px;
 
   --bg-light: #FCFCFC;
-  --bg-dark: #262626;
+  --bg-dark: #282828;
 
-  --text-light: #fff;
+  --text-light: #E6E6E6;
   --text-dark: #282828;
 
   --btn-bg-blue: #58AFC4;
   --btn-border-transparent: #F2F2F2;
   --btn-bg-transparent: transparent;
-  /* --btn-bg- */
 }
-
 /* Variaveis */
 
-/* Reset */
+/* Classes reutilizaveis */
+.d-flex-justify-center {
+  display: flex;
+  justify-content: center;
+}
+/* Classes reutilizaveis */
 
+/* Reset */
 * {
   box-sizing: border-box;
 }
@@ -35,12 +38,18 @@ html {
 html,body {
   margin: 0;
   padding: 0;
-  font-family: 'Quicksand', 'Helvetica', sans-serif;
   scroll-behavior: smooth;
+  font-family: 'Quicksand', 'Helvetica', sans-serif;
+
+  background: var(--bg-light);
 }
 
 a {
   text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
 }
 
 img {
@@ -51,7 +60,7 @@ h2 {
   text-align: center;
   text-transform: initial;
 
-  font-family: 'Montserrat', 'helvetica' sans-serif;
+  font-family: 'Montserrat', 'helvetica', sans-serif;
   font-weight: 700;
   font-size: 4.8rem;
 }
@@ -60,9 +69,20 @@ h2 {
 /* Reset */
 
 /* Helpers */
-
 .dark {
   background-color: var(--bg-dark);
+}
+
+.light {
+  background: var(--bg-light);
+}
+
+.text-dark {
+  color: var(--text-dark);
+}
+
+.text-light {
+  color: var(--text-light);
 }
 
 .wrapper {
@@ -71,11 +91,6 @@ h2 {
   max-width: var(--max-site-width);
   padding: 0 var(--padding-default);
 }
-
-.separador {
-  height: 70vh;
-}
-/* Helpers */
 
 /* Componentes */
 .btn {
@@ -110,12 +125,12 @@ h2 {
     justify-content: space-between;
     align-items: center;
     z-index: 1;
-    height: 85px;
+    height: 70px;
   }
 
   .header .wrapper .menu {
     display: flex;
-    
+    gap: var(--padding-default);
   }
 /* Header */
 
@@ -124,7 +139,7 @@ h2 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   font-size: 3.2rem;
-  height: 100vh;
+  /* height: 100vh; */
   padding: var(--padding-default);
 }
 .footer .wrapper a {
