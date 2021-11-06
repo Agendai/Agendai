@@ -1,4 +1,4 @@
 # Agendai
 
-Release v0.0.2
+Release v0.0.3
 
