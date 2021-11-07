@@ -7,6 +7,10 @@ body {
 
 /*Header*/
 
+.img {
+    width: 100%;
+}
+
 .exit {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -95,7 +99,9 @@ main {
 }
 
 /*Footer*/
-
+.footer .wrapper {
+    grid-template-columns: repeat(auto-fit, min-max(500px, 1fr));
+}
 
 @media (max-width: 920px) {
 
@@ -109,11 +115,27 @@ main {
         align-items: center;
     }
 
-
 }
 
-@media only screen and (max-width: 920px) {
-    .footer .wrapper {
-        grid-template-columns: repeat(2, 1fr);
+
+@media (max-width: 320px) {
+    html {
+        font-size: 50%;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .menu .exit .exit-t {
+        display: none;
+    }
+
+    .card {
+        width: 200px;
+    }
+
+    .card:hover {
+        transform: none;
     }
 }
