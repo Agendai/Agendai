@@ -20,7 +20,7 @@
 /* Login container */
 #login-page .wrapper .container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 2fr 1fr;
   align-items: center;
   box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.4);
   margin: 60px 0;
@@ -98,5 +98,45 @@
   text-align: center;
 }
 /* Form Login */
-
 /* Login container */
+
+/* Responsividade */
+@media only screen and (min-width: 800px) and (max-width: 850px){
+  html {
+    font-size: 50%;
+  }
+}
+@media only screen and (max-width: 799px) and (min-width: 0px){
+  #login-page .wrapper .container .aside {
+    display: none;
+  }
+  #login-page .wrapper {
+    width: max-content;
+    margin: 0 auto;
+  }
+  #login-page .wrapper .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 55%;
+  }
+  #login-page .wrapper .container {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  html {
+    font-size: 50%;
+  }
+  #login-page .wrapper .container {
+    width: 280px;
+  }
+}
+/* Responsividade */
