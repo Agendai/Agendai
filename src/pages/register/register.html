@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
   <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
   <title>Agendaí - Registro</title>
 </head>
+
 <body>
   <header class="header dark">
     <div class="wrapper">
@@ -20,48 +22,65 @@
     </div>
   </header>
 
-  <main id="register">
-    <div class="form">
-      <!-- Form -->
-      <div class="wrap">
-        <div class="form1">
-          <label for="">Nome</label>
-          <input type="text" name="" id="">
+  <section id="register-page">
+    <div class="wrapper">
+      <div class="container">
+        <div class="aside dark">
+          <img src="../../assets/images/Login&Register/Login/login-image.svg" alt="Imagem criação de conta">
         </div>
-        <div class="form2">
-          <label for="">Sobrenome</label>
-          <input type="text" name="" id="">
-        </div>
-      </div>
-      <div class="wrap2">
-        <label for="">E-mail</label>
-        <input type="text">
-      </div>
-      <div class="wrap2">
-        <label for="">Celular</label>
-        <input type="number">
-      </div>
-      <div class="wrap2">
-        <label for="">Senha</label>
-        <input type="password">
-      </div>
-      <div class="wrap2">
-        <label for="">Confirmar senha</label>
-        <input type="password">
-      </div>
-      <div class="wrap2">
-        <label for="">Criar como empreendedor</label>
-        <input type="checkbox">
-      </div>
-      <button>Criar como empreendedor</button>
-      <p>Ja tem uma conta? <a href="">Login</a></p>
 
-      <!-- Image -->
-      <div class="image ">
-        <img src="/src/assets/images/Login&Register/Login/login-image.svg" class="img" alt="" srcset="">
+        <main class="main">
+          <h3 class="title">Resgistre-se</h3>
+          <div class="register-container">
+
+            <form action="" class="form-register">
+              <div class="user-details">
+                <div class="wrap">
+                  <label for=""><p>Nome</p></label>
+                  <input type="text" name="" id="">
+
+                  <label for=""><p>Celular</p></label>
+                  <input type="number" name="" id="">
+
+                  <label for=""><p>Senha</p></label>
+                  <input type="password" name="" id="">
+                </div>
+
+                <div class="wrap">
+                  <label for=""><p>Sobrenome</p></label>
+                  <input type="text">
+
+                  <label for=""><p>Email</p></label>
+                  <input type="email" name="" id="">
+
+                  <label for=""><p>Confirmar senha</p></label>
+                  <input type="password">
+                </div>
+              </div>
+
+              <div class="submit">
+                <div class="register-btn">
+                  <button type="submit" class="register-submit btn btn-blue ">Registrar</button>
+                </div>
+
+                <div class="checkbox">
+                  <input type="checkbox" name="" id="">
+                  <label for="">Criar como empreendedor</label>
+                </div>
+              </div>
+
+              <div class="login-google">
+                <span>ou</span>
+
+                <button class="google-login btn btn-login-transparent"><i class="bi bi-google" aria-label="google"
+                    style="color: #FBBC05"></i>Login com Google</button>
+              </div>
+            </form>
+          </div>
+        </main>
       </div>
     </div>
-  </main>
+  </section>
 
   <footer class="footer dark">
     <div class="wrapper">
@@ -72,4 +91,5 @@
     </div>
   </footer>
 </body>
+
 </html>
