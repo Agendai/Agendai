@@ -9,9 +9,11 @@
 
   --bg-light: #FCFCFC;
   --bg-dark: #282828;
+  --bg-input: #E7E7E7;
 
-  --text-light: #E6E6E6;
+  --text-light: #FFF;
   --text-dark: #282828;
+  --text-blue: #58AFC4;
 
   --btn-bg-blue: #58AFC4;
   --btn-border-transparent: #F2F2F2;
@@ -23,12 +25,15 @@
 .d-flex-justify-center {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 /* Classes reutilizaveis */
 
 /* Reset */
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -36,11 +41,8 @@ html {
 }
 
 html,body {
-  margin: 0;
-  padding: 0;
   scroll-behavior: smooth;
   font-family: 'Quicksand', 'Helvetica', sans-serif;
-
   background: var(--bg-light);
 }
 
@@ -102,7 +104,7 @@ h2 {
   font-size: 1.6rem;
   font-family:'Montserrat', 'helvetica', sans-serif;
   font-weight: 600;
-  width: 150px;
+  text-align: center;
 }
 
 .btn-blue{
@@ -111,7 +113,6 @@ h2 {
 }
 
 .btn-transparent {
-  background-color: transparent;
   border: 1px solid var(--btn-border-transparent);
   background-color: var(--btn-bg-transparent);
   color: var(--btn-border-transparent);
@@ -147,3 +148,13 @@ h2 {
   font-weight: 600;
 }
 /* Footer */
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 30%;
+  }
+
+  .footer .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
