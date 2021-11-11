@@ -1,0 +1,250 @@
+@import url("../global.css");
+
+@media (max-width: 975px) {
+   
+    .h2{
+        text-align: center;
+        text-transform: initial;
+ 
+       font-family: 'Montserrat', 'helvetica' sans-serif;
+       font-weight: 700;
+       font-size: 4.8rem;
+    }
+    .text{
+        font-size: 1.5rem;
+    }
+    .textlight{
+        font-size:1.5rem;
+    }
+}
+@media (max-width: 930px) {
+    .h2{
+        text-align: center;
+        text-transform: initial;
+ 
+       font-family: 'Montserrat', 'helvetica' sans-serif;
+       font-weight: 700;
+       font-size: 4.8rem;
+    }
+    .colum{
+        display: inline;
+        width: 50%;
+        margin: auto;
+        padding: 10px;
+        
+    }
+    .agendamentos{
+        display: grid;
+      
+        grid-template-columns: 3fr 2fr;
+        width: 65%;
+        
+        margin:auto;
+        margin-bottom: 2.4rem;
+        
+        background-color: var(--bg-light);
+        filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.25));
+        border-radius: 10px;
+        padding-left: 4rem;
+  }
+  .text{
+      font-size: 1.8rem;
+      
+  }
+  .textlight{
+      font-size: 1.8rem;
+  }
+}
+@media (max-width: 821px) {
+    
+  .text{
+    font-family: Quicksand;
+    
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-transform: initial;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding: 1.6rem;
+    margin-left:0.8rem ;
+    margin-right:0.8rem ;
+    
+
+}
+
+.textlight{
+    font-family: Quicksand;
+    
+    margin-left: 1.4rem;
+    color:var(--bg-light) ;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-left: 1.2rem;
+    text-transform: initial;
+    padding-right: 1.2rem;
+    padding: 1.6rem;
+    
+
+}
+    
+
+}
+
+
+@media (max-width: 740px) {
+    
+    .text{
+      font-family: Quicksand;
+      
+      font-weight: bold;
+      font-size: 1.2rem;
+      text-transform: initial;
+      padding-left: 1.2rem;
+      padding-right: 1.2rem;
+      padding: 1.4rem;
+      margin-left:0.8rem ;
+      margin-right:0.8rem ;
+      
+  
+  }
+  
+  .textlight{
+      font-family: Quicksand;
+      
+      margin-left: 1.4rem;
+      color:var(--bg-light) ;
+      font-weight: bold;
+      font-size: 1.2rem;
+      padding-left: 1.2rem;
+      text-transform: initial;
+      padding-right: 1.2rem;
+      padding: 1.4rem;
+      
+  
+  }
+  
+a {
+    font-size: 3.6rem;
+}
+.fotterimg{
+    width: 10rem;
+}
+  
+  }
+
+  @media (max-width: 640px) {
+    
+    .text{
+      font-family: Quicksand;
+      
+      font-weight: bold;
+      font-size: 1.2rem;
+      text-transform: initial;
+      padding-left: 1.4rem;
+      padding-right: 1.2rem;
+      padding: 0.8rem;
+      margin-left:0.8rem ;
+      margin-right:0.8rem ;
+      
+  
+  }
+  .textlight{
+    font-family: Quicksand;
+    
+    margin-left: 1.4rem;
+    color:var(--bg-light) ;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-left: 1.4rem;
+    text-transform: initial;
+    padding-right: 1.2rem;
+    padding: 0.8rem;
+    
+
+}
+  
+  
+      
+  
+  }
+  .agendamentos{
+      padding-left: 3rem;
+  }
+      
+  
+  
+  
+  
+
+  @media (max-width: 600px) {
+    article{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .text{
+        font-size: 2.4rem;
+        padding: 1.8rem;
+        padding-bottom: 3.8rem;
+        
+    }
+    .padding {
+        padding-top: 3.8rem;
+        padding-bottom: 2rem;
+    }
+    .textlight{
+        font-size: 2.4rem;
+        padding: 1.8rem;
+        
+        margin: 0.8rem;
+        
+    }
+    .h2{
+        font-size: 4.8rem;
+    }
+    .agendamentos{
+        
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }  
+        
+
+        
+        
+   
+    .agend-part1{ 
+        display: inline-block;
+    }    
+        
+    
+    
+    .agend-part2{
+        
+        display: inline-block;
+        border-radius: 0 0 10px 10px;
+        
+        
+    }
+    .footer{
+        text-align: center;
+    }
+    
+
+  }
+   @media (max-width: 380px) {
+     
+    .text{
+        font-size: 1.8rem;
+    }
+    .textlight{
+        font-size: 1.8rem;
+        padding: 1.8rem;
+    }
+    
+    
+    
+
+  } 

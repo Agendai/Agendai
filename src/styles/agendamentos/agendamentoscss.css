@@ -1,0 +1,102 @@
+@import url("../global.css");
+
+.h2 {
+    text-align:justify;
+    text-transform: initial;
+  
+    font-family: 'Montserrat', 'helvetica' sans-serif;
+    font-weight: 700;
+    font-size: 4.8rem;
+    margin: 2.6rem;
+  }
+  .btn-transparent2 {
+    background-color: transparent;
+    
+  }
+  a{
+      padding: 0.5rem;
+  }
+
+.voltar {
+    width: 10rem;
+}
+.logo{
+width: 13rem;
+}
+
+.fotter{
+    width: 100%;
+}
+
+.colum{
+    display: flex;
+    justify-content: space-around;
+}
+.agendamentos{
+      display: grid;
+    
+      grid-template-columns: 3fr 2fr;
+      width: 100%;
+      align-items: center;
+      
+      margin-bottom: 2.4rem;
+      
+      background-color: var(--bg-light);
+      filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.25));
+      border-radius: 10px;
+
+      margin-top:2.6rem ;
+}
+.agend-part1{ 
+    max-width: 100%;
+    max-height: 100%;
+    flex-direction: column;
+    border-radius: 10px;
+    
+}    
+    
+
+
+.agend-part2{
+    
+     flex-direction: column;
+    border-radius: 0 10px 10px 0;
+    background: var(--btn-bg-blue);
+    width: 100%;
+    
+    
+}
+
+.text{
+    font-family: Quicksand;
+    
+    font-weight: bold;
+    font-size: 1.7rem;
+    text-transform: initial;
+    padding-left: 1.4rem;
+    padding-right: 1.2rem;
+    padding: 1.4rem;
+    margin-left:0.8rem ;
+    margin-right:0.8rem ;
+    padding-bottom:1.7rem ;
+    
+
+}
+
+.textlight{
+    font-family: Quicksand;
+    
+    margin-left: 1.4rem;
+    color:var(--bg-light) ;
+    font-weight: bold;
+    font-size: 1.7rem;
+    padding-left: 1.4rem;
+    text-transform: initial;
+    padding-right: 1.2rem;
+    padding: 1.4rem;
+    padding-bottom: 1.7rem;
+
+}
+    
+    
+   
