@@ -22,12 +22,14 @@
 
 #register-page .wrapper .container .aside {
   height: 100%;
-  padding: 100px;
+  padding: 20px;
+  display: flex;
+  margin: 0 auto;
 }
 
 #register-page .wrapper .container {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 3fr;
   align-items: center;
   box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.4);
   margin: 60px 0;
@@ -43,28 +45,52 @@
   grid-template-columns: 1fr 1fr;
   column-gap: 20px;
 }
-.submit {
+.main .register-container .form-register .submit {
   margin-top: 20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
-.submit .checkbox {
+.main .register-container .form-register .submit .checkbox {
   display: flex;
   align-items: center;
   column-gap: 5px;
 }
 
-.login-google {
+.main .register-container .form-register .login-google {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 4em;
 }
 
-.login-google span {
+.main .register-container .form-register .login-google span {
   font-size: 2.4rem;
-  padding: 10px 0;
+  padding: 10px;
   text-align: center;
+}
+
+.main .register-container .form-register .login-google .btn-google i{
+  margin-right: 10px;
+  text-align: center;
+}
+
+.main .form-register .user-details label{
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.main .form-register .user-details input {
+  border-radius: 10px;
+  background-color: var(--bg-input);
+  outline: none;
+  border-style: none;
+  padding: 1em 0;
+  margin-bottom: 10px;
+}
+
+.main .form-register .checkbox label {
+  font-size: 1.2rem;
+  font-weight: 600;
 }
