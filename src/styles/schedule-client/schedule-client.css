@@ -4,26 +4,6 @@ html {
     font-size: 62.5%;
 }
 
-/*Botão Sair*/
-.exit {
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 2rem;
-    color: var(--bg-light);
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.bi-box-arrow-left {
-    color: var(--btn-bg-blue);
-    font-size: 3rem;
-
-    margin-right: 10px;
-}
-/*Botão Sair*/
-
 /*Main*/
 
 .title {
