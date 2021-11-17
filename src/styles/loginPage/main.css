@@ -1,0 +1,142 @@
+@import url('../global.css');
+
+
+/* Classes Reutilizaveis */
+.btn {
+  font-size: 1.2rem;
+}
+
+.btn-login-transparent {
+  border: 1px solid var(--text-dark);
+  color: var(--text-dark);
+  background-color: var(--btn-bg-transparent);
+}
+/* Classes Reutilizaveis */
+
+/* Helpers */
+
+/* Helpers */
+
+/* Login container */
+#login-page .wrapper .container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.4);
+  margin: 60px 0;
+}
+
+/* Login aside */
+#login-page .wrapper .container .aside {
+  height: 100%;
+  padding: 100px;
+}
+/* Login aside */
+
+/* Form Login */
+#login-page .wrapper .container .main {
+  margin: 0 auto;
+}
+
+#login-page .wrapper .container .main .form-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#login-page .wrapper .container .main h3 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 2em;
+  text-align: center;
+  padding-top: 2em;
+
+  font-family: 'Montserrat', 'Helvetica', sans-serif;
+}
+
+#login-page .wrapper .container .main .form-control label {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+#login-page .wrapper .container .main .form-control input {
+  border-radius: 10px;
+  background-color: var(--bg-input);
+  outline: none;
+  border-style: none;
+  padding: 1em;
+  margin-bottom: 10px;
+}
+
+#login-page .wrapper .container .main .form-control .reset-password, a{
+  color: var(--text-blue);
+  font-weight: 500;
+  font-size: 1.6rem;
+  padding: 0 0.4em;
+  margin-bottom: 10px;
+}
+
+#login-page .wrapper .container .main .form-control span{
+  font-size: 2.4rem;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#login-page .wrapper .container .main .form-control .buttons button:first-child{
+  margin-right: 1em;
+  margin-bottom: 10px;
+}
+
+#login-page .wrapper .container .main .form-control .google-login {
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 4em;
+}
+
+#login-page .wrapper .container .main .form-control .google-login i{
+  margin-right: 10px;
+  text-align: center;
+}
+/* Form Login */
+/* Login container */
+
+/* Responsividade */
+@media only screen and (min-width: 800px) and (max-width: 850px){
+  html {
+    font-size: 50%;
+  }
+}
+@media only screen and (max-width: 799px) and (min-width: 0px){
+  #login-page .wrapper .container .aside {
+    display: none;
+  }
+  #login-page .wrapper {
+    width: max-content;
+    margin: 0 auto;
+  }
+  #login-page .wrapper .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 55%;
+  }
+  #login-page .wrapper .container {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  html {
+    font-size: 50%;
+  }
+  #login-page .wrapper .container {
+    width: 280px;
+  }
+}
+/* Responsividade */

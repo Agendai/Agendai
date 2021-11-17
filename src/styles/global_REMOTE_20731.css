@@ -13,11 +13,7 @@
 
   --text-light: #FFF;
   --text-dark: #282828;
-<<<<<<< HEAD
-  --text-placeholder-light: #F1F1F1;
-=======
   --text-blue: #58AFC4;
->>>>>>> feature/feature-login
 
   --btn-bg-blue: #58AFC4;
   --btn-border-transparent: #F2F2F2;
@@ -70,6 +66,7 @@ h2 {
   font-weight: 700;
   font-size: 4.8rem;
 }
+
 /* Reset */
 
 /* Helpers */
@@ -135,71 +132,6 @@ h2 {
     display: flex;
     gap: var(--padding-default);
   }
-
-  .header .wrapper .menu .buttons-account {
-    display: flex;
-    gap: var(--padding-default);
-    transform: translate( 0, 10%);
-  }
-
-  .header .wrapper .search-box {
-    background: var(--btn-bg-blue);
-    height: 40px;
-    padding: 25px 5px;
-    border-radius: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .header .wrapper .search-box input::placeholder {
-    color: var(--text-placeholder-light);
-  }
-
-  .header .wrapper .search-txt {
-    border: none;
-    background: none;
-    outline: none ;
-    width: 0; 
-    padding: 0;
-    color: var(--bg-light);
-    font-size: 1.6rem;
-    line-height: 40px;
-    transition: .5s;
-  }
-
-  .header .wrapper .search-btn {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: var(--btn-bg-blue);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: .5s;
-  }
-
-  .header .wrapper .search-btn .bi-search{
-    color: var(--text-dark);
-    font-size: 20px;
-  }
-
-  .header .wrapper .search-box:focus, .search-box:hover > .search-txt {
-    width: 240px;
-    padding: 40px 10px;
-    transition: .5s;
-  }
-
-  .header .wrapper .search-box:focus, .search-box:hover > .search-btn i{
-    background: var(--bg-light);
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    transition: .3s;
-  }
 /* Header */
 
 /* Footer */
@@ -207,7 +139,7 @@ h2 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   font-size: 3.2rem;
-  height: 40vh;
+  /* height: 100vh; */
   padding: var(--padding-default);
 }
 .footer .wrapper a {
