@@ -205,7 +205,7 @@ h2 {
 /* Footer */
 .footer .wrapper {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));;
   font-size: 3.2rem;
   height: 40vh;
   padding: var(--padding-default);
