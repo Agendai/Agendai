@@ -219,7 +219,7 @@ a {
         display: inline-block;
     }    
         
-    
+
     
     .agend-part2{
         
@@ -231,7 +231,12 @@ a {
     .footer{
         text-align: center;
     }
-    
+    .logo{
+        width: 17rem;
+    }
+    .voltar {
+        width: 14rem;
+    }
 
   }
    @media (max-width: 380px) {
@@ -243,7 +248,7 @@ a {
         font-size: 1.8rem;
         padding: 1.8rem;
     }
-    
+   
     
     
 
