@@ -1,0 +1,54 @@
+@import url("../../styles/global.css");
+
+.texto {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 30px;
+}
+
+p {
+    font-size: 1.6rem;
+    margin: 10px;
+    padding: 10px;
+}
+
+.row {
+    text-align: center;
+}
+
+.column {
+    font-family: 'Quicksand', sans-serif;
+    width: 50%;
+    float: left;
+}
+
+input {
+    border: 0px;
+    background-color: #EDEDED;
+    height: 30px;
+    width: 300px;
+}
+
+.button {
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    font-family:'Montserrat', 'helvetica', sans-serif;
+    font-weight: 600;
+    background-color: var(--btn-bg-blue);
+    color: var(--text-light);
+    margin: 45px;
+}
+
+.button1 {
+    text-align: center;
+}
+
+.svg1 {
+    text-align: right;
+    margin-bottom: 30px;
+}
