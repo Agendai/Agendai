@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../../styles/global.css">
-  <link rel="stylesheet" href="../../styles/hotSite/main.css">
-  <link rel="stylesheet" href="/node_modules/swiper/swiper-bundle.css">
-  <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../../styles/global.css" />
+  <link rel="stylesheet" href="../../styles/hotSite/main.css" />
+  <link rel="stylesheet" href="/node_modules/swiper/swiper-bundle.css" />
+  <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css" />
   <title>Hot Site</title>
 </head>
-<body>
 
+<body>
   <header class="header dark">
     <div class="wrapper">
-      <a href="/"><img src="../../assets/icons/logo.svg" width="120"  alt="Logo da Agendaí" /></a>
+      <a href="/"><img src="../../assets/icons/logo.svg" width="120" alt="Logo da Agendaí" /></a>
 
       <nav class="menu">
         <div class="search-box">
-          <input class="search-txt" name="" type="text" placeholder="O que precisa hoje?">
+          <input class="search-txt" name="" type="text" placeholder="O que precisa hoje?" />
           <a class="search-btn" href="#"><i class="bi bi-search"></i></a>
         </div>
 
@@ -30,20 +31,78 @@
     </div>
   </header>
 
-  <div class="swiper">
+  <div class="swiper wrapper">
     <div class="swiper-wrapper">
-      <div class="swiper-slide"><img src="../../assets/images/LandingPage/hero-image.jpg" alt=""></div>
-      <div class="swiper-slide"><img src="../../assets/images/LandingPage/hero-image.jpg" alt=""></div>
-      <div class="swiper-slide"><img src="../../assets/images/LandingPage/hero-image.jpg" alt=""></div>
+      <div class="swiper-slide">
+        <img src="../../assets/images/LandingPage/hero-image.jpg" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="../../assets/images/LandingPage/hero-image.jpg" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="../../assets/images/LandingPage/hero-image.jpg" alt="" />
+      </div>
     </div>
+
     <div class="swiper-pagination"></div>
 
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
   </div>
 
+  <main>
+    <div class="wrapper">
+      <div class="container">
+        <div class="teste">
+          <section class="services">
+            <div class="contain">
+              <div class="info">
+                <span>Corte de cabelo</span>
   
+                <div class="value-time">
+                  <p>R$30,00</p>
+                  <p>35min</p>
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-blue">Agende</button>
+          </section>
+          <section class="services">
+            <div class="contain">
+              <div class="info">
+                <span>Corte de cabelo</span>
+  
+                <div class="value-time">
+                  <p>R$30,00</p>
+                  <p>35min</p>
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-blue">Agende</button>
+          </section>
+        </div>        
 
+        <section class="about">
+          <div class="logo">
+            <img src="../../assets/images/img-central/logo-cavalca.png" alt="">
+            <h3>Cavalca Barbearia</h3>
+          </div>
+
+          <div class="description">
+            <p>Corte seu cabelo com estilo e conforto. Cavalca Barbearia preza pela velocidade no atendimento,
+              organização e conforto, oferecendo a você, cliente, a melhor experiência de corte já vivido.
+              Cavalca Barbearia, orgulho de ser cabeleireiro!</p>
+          </div>
+
+          <div class="social-media">
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
 
   <footer class="footer dark">
     <div class="wrapper">
@@ -57,4 +116,5 @@
   <script src="/node_modules/swiper/swiper-bundle.min.js" defer></script>
   <script src="../../js/hotSite/hotSite.js" defer></script>
 </body>
+
 </html>
