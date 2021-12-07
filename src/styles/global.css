@@ -215,7 +215,7 @@ h2 {
     height: 0;
     top: 68px;
     right: 0;
-    background: black;
+    background: var(--bg-dark);
     z-index: 2;
     padding: var(--padding-default);
     transition: .5s;
