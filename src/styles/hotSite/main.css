@@ -107,8 +107,25 @@ main .wrapper .container {
 }
 /*  */
 
-.wrapper .container .teste {
+.wrapper .container .contents {
   flex-direction: column;
+}
+
+.contain .info span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 600;
+
+  color: var(--text-dark);
+}
+
+.contain .info .value-time p {
+  font-size: 1.2rem;
+  font-weight: 600;
+
+  color: var(--text-dark);
+
+  text-align: right;
 }
 
 
