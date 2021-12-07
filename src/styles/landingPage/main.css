@@ -76,6 +76,12 @@
 /* Objective Section */
 
 /* Responsividade */
+@media only screen and (max-width: 1030px) {
+  .glider-prev,
+  .glider-next {
+    display: none;
+  }
+}
 
 @media only screen and (max-width: 760px) {
   #hero .swiper .swiper-wrapper .content-text h2 {

@@ -5,6 +5,10 @@ window.addEventListener('load', function(){
     dragVelocity: 1.0,
     draggable: true,
     dots: ".dots",
+    arrows: {
+      prev: '.glider-prev',
+      next: '.glider-next'
+    },
     scrollLock: true,
     responsive: [
       {
@@ -12,12 +16,14 @@ window.addEventListener('load', function(){
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
+          itemWidth: 150,
         },
       }, {
         breakpoint: 900,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          itemWidth: 150,
         },
       }
     ]
