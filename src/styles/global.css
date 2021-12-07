@@ -212,8 +212,15 @@ h2 {
 }
 /* Footer */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
   .footer .wrapper {
     grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .footer .wrapper {
+    grid-template-columns: 1fr;
   }
 }
