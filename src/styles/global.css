@@ -198,22 +198,128 @@ h2 {
   }
 /* Header */
 
+/* Hamburguer */
+#hamburguer {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  #hamburguer {
+    display: block;
+  }
+
+  .header .wrapper .menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 68px;
+    right: 0;
+    background: var(--bg-dark);
+    z-index: 2;
+    padding: var(--padding-default);
+    transition: .5s;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+
+  .header .wrapper .menu.active {
+    height: calc(100vh - 68px);
+    visibility: visible;
+    overflow-y: auto;
+  }
+
+  .header .wrapper .menu a {
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 2px solid rgba(0, 0, 0, .05);
+  }
+
+  .header .wrapper .menu .search-box {
+    display: none;
+  }
+
+  #hamburguer {
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 1.6rem;
+    border: none;
+    background: none;
+    gap: .5rem;
+  }
+
+  #hamburguer .line {
+    border-top: 2px solid;
+    width: 20px;
+    color: var(--btn-bg-blue);
+  }
+
+  #hamburguer .line::after, #hamburguer .line::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    position: relative;
+    transition: .5s;
+  }
+
+  #hamburguer .line.active {
+    border-top-color: transparent;
+    transition: .2s;
+  }
+
+  #hamburguer .line.active::before {
+    transform: rotate(135deg);
+  }
+
+  #hamburguer .line.active::after {
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+
+  .menu.active #hamburguer .line {
+    border-top-color: transparent;
+  }
+
+  #hero {
+    transition: 0.5s;
+  }
+
+  #hero.active {
+    transition: 0.5s;
+    margin-top: 100vh;
+  }
+}
+/* Hamburguer */
+
 /* Footer */
 .footer .wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   font-size: 3.2rem;
   height: 40vh;
   padding: var(--padding-default);
 }
+
 .footer .wrapper a {
   color: var(--text-light);
   font-weight: 600;
 }
 /* Footer */
 
+/* Responsividade */
 @media only screen and (max-width: 600px) {
   .footer .wrapper {
     grid-template-columns: repeat(2, 1fr);
+    place-items: center;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  .footer .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+/* Responsividade */
