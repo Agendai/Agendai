@@ -307,8 +307,10 @@ h2 {
 }
 /* Footer */
 
+/* Responsividade */
 @media only screen and (max-width: 600px) {
   .footer .wrapper {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+/* Responsividade */
