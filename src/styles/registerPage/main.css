@@ -94,3 +94,73 @@
   font-size: 1.2rem;
   font-weight: 600;
 }
+
+/* Responsividade */
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 55.5%;
+  }
+  #register-page .wrapper {
+    max-width: 700px;
+  }
+  
+}
+
+@media only screen and (max-width: 580px) {
+  #register-page .wrapper .container .aside {
+    display: none;
+  }
+
+  #register-page .wrapper{
+    max-width: 500px;
+  }
+
+  .main .register-container .form-register {
+    width: 450px;
+  }
+
+  .main .register-container .form-register .user-details {
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+
+  .main .register-container .form-register .submit {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .main .register-container .form-register .submit .register-btn {
+    margin-bottom: var(--padding-default);
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  html {
+    font-size: 45.5%;
+  }
+
+  #register-page .wrapper{
+    max-width: 350px;
+  }
+
+  .main .register-container .form-register {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+
+  #register-page .wrapper{
+    max-width: 280px;
+  }
+
+  .main .register-container .form-register {
+    width: 230px;
+  }
+
+  .btn-google {
+    width: 170px;
+    text-align: center;
+  }
+}
+/* Responsividade */
