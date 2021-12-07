@@ -1,0 +1,91 @@
+@import url("../../styles/global.css");
+
+.texto {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.inputtime {
+    border: 0px;
+    background-color: #D8D8D8;
+    height: 30px;
+    width: 85px;
+    padding: 7px;
+}
+
+input {
+    border: 0px;
+    background-color: #D8D8D8;
+    padding: 7px;
+    height: 30px;
+    width: 300px;
+}
+
+
+h2 {
+    font-size: 24px;
+    margin: 10px;
+}
+
+p {
+    font-size: 1.6rem;
+    margin: 10px;
+}
+
+.text1 {
+    padding: 50px;
+    text-align: center;
+}
+
+.column3 {
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.6rem;
+}
+
+.extra {
+    display: none;
+}
+
+.row2 {
+    display: grid;
+    grid-template-columns: 3fr 5fr 5fr;
+    text-align: center;
+}
+
+.mb {
+    margin-bottom: 10px;
+}
+
+.file {
+    background-color: none;
+    width: auto;
+}
+
+.text2 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+.column2 {
+    font-family: 'Quicksand', sans-serif;
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.row {
+    line-height: 70px;
+}
+
+.perfil {
+    text-align: center;
+    margin: 30px;
+}
