@@ -291,16 +291,18 @@ h2 {
     transition: 0.5s;
     margin-top: 100vh;
   }
+}
 /* Hamburguer */
 
 /* Footer */
 .footer .wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   font-size: 3.2rem;
   height: 40vh;
   padding: var(--padding-default);
 }
+
 .footer .wrapper a {
   color: var(--text-light);
   font-weight: 600;
