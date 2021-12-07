@@ -34,13 +34,22 @@
   <div class="swiper wrapper">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <img src="../../assets/images/LandingPage/hero-image.jpg" alt="" />
+        <img src="../../assets/images/hotSite/barber.jpg" alt="" />
       </div>
       <div class="swiper-slide">
-        <img src="../../assets/images/LandingPage/hero-image.jpg" alt="" />
+        <img src="../../assets/images/hotSite/cut-hair.jpg" alt="" />
       </div>
       <div class="swiper-slide">
-        <img src="../../assets/images/LandingPage/hero-image.jpg" alt="" />
+        <img src="../../assets/images/hotSite/hair.jpg" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="../../assets/images/hotSite/blackmen.jpg" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="../../assets/images/hotSite/hair-cut.jpg" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="../../assets/images/hotSite/barbershop.jpg" alt="" />
       </div>
     </div>
 
@@ -54,33 +63,124 @@
     <div class="wrapper">
       <div class="container">
         <div class="contents">
+          <!--Serviços-->
           <section class="services">
             <div class="contain">
               <div class="info">
                 <span>Corte de cabelo</span>
-  
                 <div class="value-time">
                   <p>R$30,00</p>
-                  <p>35min</p>
+                  <p>1h</p>
                 </div>
               </div>
             </div>
-            <button class="btn btn-blue">Agende</button>
+            <button onclick="modal()" class="btn btn-blue">Agende</button>
+            </form>
           </section>
+
           <section class="services">
             <div class="contain">
               <div class="info">
-                <span>Corte de cabelo</span>
-  
+                <span>Alisamento</span>
                 <div class="value-time">
-                  <p>R$30,00</p>
-                  <p>35min</p>
+                  <p>R$60,00</p>
+                  <p>1h30</p>
                 </div>
               </div>
             </div>
-            <button class="btn btn-blue">Agende</button>
+            <button onclick="modal()" class="btn btn-blue">Agende</button>
+            </form>
           </section>
-        </div>        
+
+          <section class="services">
+            <div class="contain">
+              <div class="info">
+                <span>Barba</span>
+                <div class="value-time">
+                  <p>R$40,00</p>
+                  <p>1h</p>
+                </div>
+              </div>
+            </div>
+            <button onclick="modal()" class="btn btn-blue">Agende</button>
+            </form>
+          </section>
+
+          <section class="services">
+            <div class="contain">
+              <div class="info">
+                <span>Sobrancelha</span>
+                <div class="value-time">
+                  <p>R$10,00</p>
+                  <p>30min</p>
+                </div>
+              </div>
+            </div>
+            <button onclick="modal()" class="btn btn-blue">Agende</button>
+            </form>
+          </section>
+
+          <section class="services">
+            <div class="contain">
+              <div class="info">
+                <span>Pézinho</span>
+                <div class="value-time">
+                  <p>R$10,00</p>
+                  <p>30min</p>
+                </div>
+              </div>
+            </div>
+            <button onclick="modal()" class="btn btn-blue">Agende</button>
+            </form>
+          </section>
+
+          <section class="services">
+            <div class="contain">
+              <div class="info">
+                <span>Progressiva</span>
+                <div class="value-time">
+                  <p>R$60,00</p>
+                  <p>1h</p>
+                </div>
+              </div>
+            </div>
+            <button onclick="modal()" class="btn btn-blue">Agende</button>
+            </form>
+          </section>
+
+          <section class="services">
+            <div class="contain">
+              <div class="info">
+                <span>Luzes</span>
+                <div class="value-time">
+                  <p>R$60,00</p>
+                  <p>1h30</p>
+                </div>
+              </div>
+            </div>
+            <button onclick="modal()" class="btn btn-blue">Agende</button>
+            </form>
+          </section>
+
+
+          <!--Serviços-->
+        </div>
+
+        <section class="modal">     
+          <form action="">
+            <div class="exit"><i onclick="exit()" class="bi bi-x-circle"></i></div>
+            <div class="form">
+              <div class="day">
+                <h1>Para qual dia?</h1>
+                <input class="input" type="date" name="date-schedule" id="date-schedule">
+              </div>
+              <div class="time">
+                <h1>Em qual horário?</h1>
+                <input class="input" type="date-time" name="date-schedule" id="date-schedule">
+              </div>
+              <input class="btn btn-blue" type="submit" value="Agendar">
+            </div>
+        </section><!--Modal-->
 
         <section class="about">
           <div class="logo">
@@ -99,10 +199,14 @@
             <a href=""><i class="bi bi-facebook"></i></a>
             <a href=""><i class="bi bi-whatsapp"></i></a>
           </div>
-        </section>
+        </section><!--Sobre-->
       </div>
     </div>
   </main>
+
+  <div class="wrapper">
+
+  </div>
 
   <footer class="footer dark">
     <div class="wrapper">
@@ -113,8 +217,10 @@
     </div>
   </footer>
 
+
   <script src="/node_modules/swiper/swiper-bundle.min.js" defer></script>
   <script src="../../js/hotSite/hotSite.js" defer></script>
+  <script src="../../js/hotSite/main.js"></script>
 </body>
 
 </html>
