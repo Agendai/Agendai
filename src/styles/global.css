@@ -10,6 +10,7 @@
   --bg-light: #FCFCFC;
   --bg-dark: #282828;
   --bg-input: #E7E7E7;
+  --bg-navbar: #313131;
 
   --text-light: #FFF;
   --text-dark: #282828;
@@ -198,6 +199,26 @@ h2 {
   }
 /* Header */
 
+  /* Navbar */
+  .navbar {
+    background: var(--bg-navbar);
+    padding: 5px 0;
+    border-top: 1px solid rgba(88, 175, 196, 0.2);
+  }
+
+  .navbar .wrapper ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar .wrapper ul li a {
+    color: var(--text-light);
+    font-size: 1.6rem;
+    font-weight: 600;
+    display: block;
+    padding: 5px;
+  }
+  /* Navbar */
+
 /* Hamburguer */
 #hamburguer {
   display: none;
@@ -216,7 +237,7 @@ h2 {
     top: 68px;
     right: 0;
     background: var(--bg-dark);
-    z-index: 2;
+    z-index: 1;
     padding: var(--padding-default);
     transition: .5s;
     visibility: hidden;
@@ -237,6 +258,46 @@ h2 {
 
   .header .wrapper .menu .search-box {
     display: none;
+  }
+
+  .navbar .wrapper .listNav{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 68px;
+    right: 0;
+    z-index: 1;
+    padding: var(--padding-default);
+    transition: .5s;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+
+  .navbar .wrapper .listNav.active {
+    height: calc(100vh - 68px);
+    visibility: visible;
+    overflow-y: auto;
+  }
+
+   .listNav li a{
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px !important;
+  }  
+
+  .navbar .listNav::after, .navbar .listNav li::before {
+    content: '';
+    display: block;
+    height: 2px;
+    margin: 20px 0;
+    background: rgba(0, 0, 0, .2);
+    margin: 10px 0;
+    position: relative;
+    transition: .5s;
+  }
+  .navbar .listNav::after {
+    margin: 20px 0;
   }
 
   #hamburguer {
@@ -264,6 +325,7 @@ h2 {
     position: relative;
     transition: .5s;
   }
+
 
   #hamburguer .line.active {
     border-top-color: transparent;

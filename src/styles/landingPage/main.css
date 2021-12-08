@@ -51,9 +51,15 @@
 /* Recommended Section */
 
 /* Services Section */
+#services .wrapper .service-contain {
+  text-align: justify;
+}
 /* Services Section */
 
 /* Service Company Section */
+#service-company .wrapper .service-company-contain {
+  text-align: justify;
+}
 /* Service Company Section */
 
 /* Service Localization Section */
