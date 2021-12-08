@@ -125,11 +125,6 @@ main .wrapper .container {
 }
 /* Sobre */
 
-.wrapper .container .contents {
-  flex-direction: column;
-}
-
-
 
 
 /*Modal*/
@@ -140,15 +135,12 @@ main .wrapper .container {
   width: 350px;
   max-width: 100%;
 
-  display: flex;
-  justify-content: center;
-
   filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.25));
 
   border-radius: 15px;
 
   position: absolute;
-  transform: translate(70%, 0);
+  transform: translate(70%, 0%);
   display: none;
 
   animation: animate;
