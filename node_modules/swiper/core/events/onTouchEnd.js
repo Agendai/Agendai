@@ -39,7 +39,8 @@ export default function onTouchEnd(event) {
   const timeDiff = touchEndTime - data.touchStartTime; // Tap, doubleTap, Click
 
   if (swiper.allowClick) {
-    swiper.updateClickedSlide(e);
+    const pathTree = e.path || e.composedPath && e.composedPath();
+    swiper.updateClickedSlide(pathTree && pathTree[0] || e.target);
     swiper.emit('tap click', e);
 
     if (timeDiff < 300 && touchEndTime - data.lastClickTime < 300) {
