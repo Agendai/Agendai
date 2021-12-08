@@ -1,0 +1,166 @@
+@import url('../global.css');
+
+/* Classes Reutilizaveis */
+.btn {
+  font-size: 1.2rem;
+}
+
+.btn-login-transparent {
+  border: 1px solid var(--text-dark);
+  color: var(--text-dark);
+  background-color: var(--btn-bg-transparent);
+}
+/* Classes Reutilizaveis */
+
+.main .title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 2em 0;
+  font-family: 'Montserrat', 'Helvetica', sans-serif;
+}
+
+#register-page .wrapper .container .aside {
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  margin: 0 auto;
+}
+
+#register-page .wrapper .container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.4);
+  margin: 60px 0;
+}
+
+.main .register-container {
+  display: flex;
+  justify-content: center;
+}
+
+.main .register-container .form-register .user-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+.main .register-container .form-register .submit {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main .register-container .form-register .submit .checkbox {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.main .register-container .form-register .login-google {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4em;
+}
+
+.main .register-container .form-register .login-google span {
+  font-size: 2.4rem;
+  padding: 10px;
+  text-align: center;
+}
+
+.main .register-container .form-register .login-google .btn-google i{
+  margin-right: 10px;
+  text-align: center;
+}
+
+.main .form-register .user-details label{
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.main .form-register .user-details input {
+  border-radius: 10px;
+  background-color: var(--bg-input);
+  outline: none;
+  border-style: none;
+  padding: 1em 0;
+  margin-bottom: 10px;
+}
+
+.main .form-register .checkbox label {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* Responsividade */
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 55.5%;
+  }
+  #register-page .wrapper {
+    max-width: 700px;
+  }
+  
+}
+
+@media only screen and (max-width: 580px) {
+  #register-page .wrapper .container .aside {
+    display: none;
+  }
+
+  #register-page .wrapper{
+    max-width: 500px;
+  }
+
+  .main .register-container .form-register {
+    width: 450px;
+  }
+
+  .main .register-container .form-register .user-details {
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+
+  .main .register-container .form-register .submit {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .main .register-container .form-register .submit .register-btn {
+    margin-bottom: var(--padding-default);
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  html {
+    font-size: 45.5%;
+  }
+
+  #register-page .wrapper{
+    max-width: 350px;
+  }
+
+  .main .register-container .form-register {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+
+  #register-page .wrapper{
+    max-width: 280px;
+  }
+
+  .main .register-container .form-register {
+    width: 230px;
+  }
+
+  .btn-google {
+    width: 170px;
+    text-align: center;
+  }
+}
+/* Responsividade */
