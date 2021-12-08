@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="../../styles/global.css">
+  <link rel="stylesheet" href="../../styles/perfilEmpreendedor/main.css">
+
+  <title>Meu Perfil</title>
+</head>
+
+<body>
+  <header class="header dark">
+    <div class="wrapper">
+      <a href="/"><img src="../../assets/icons/logo.svg" width="120" alt="Logo da Agendaí" /></a>
+
+      <nav class="menu">
+
+        <div class="search-box">
+          <input class="search-txt" name="" type="text" placeholder="O que precisa hoje?">
+          <a class="search-btn" href="#"><i class="bi bi-search"></i></a>
+        </div>
+
+        <div class="buttons-account">
+          <li><button class="btn btn-blue">Login</button></li>
+          <li><button class="btn btn-transparent">Register</button></li>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrapper">
+      <h1 class="title">Informações da Empresa</h1>
+
+      <form action="">
+        <section>
+          <div class="logo-change">
+            <img src="../../assets/images/perfilEmpreendedor/logo-cavalca.png" alt="Logo da empresa">
+            <div class="infos-logo">
+              <h3>Insira o seu logo</h3>
+              <input type="file" name="logo-img" id="logo-img" accept=".jpg,.png,.svg">
+            </div>
+          </div>
+
+          <div class="form-control">
+            <div class="form">
+              <label for="title">Nome da Empresa</label>
+              <input type="text" name="name-company" id="name-company" placeholder="Ex: Marcela Manicure">
+            </div>
+
+            <div class="form">
+              <label for="title">CNPJ<span>(opicional)</span></label>
+              <input type="number" name="cnpj" id="cnpj" placeholder="000.000.000-00">
+            </div>
+
+            <div class="form">
+              <label for="title">Tipos de Serviços</label>
+              <input type="text" name="services" id="services" placeholder="Ex: Barbearia">
+            </div>
+          </div>
+
+
+        </section>
+        <!--Informações da Empresa-->
+
+        <section>
+          <div class="infos-schedule mb">
+            <h2 class="title">Agendamento</h2>
+            <p>Insira os horários de serviço disponíveis do seu negócio para que seja efetuado o agendamento.</p>
+          </div>
+
+
+          <div class="container">
+            <div class="schedule-time">
+              <h3>Domingo</h3>
+              <div class="hours">
+                <span>Horário de funcionamento</span>
+                <div class="content">
+                  <input type="time" name="working-sunday-open" id="working-sunday-open"><span>às</span><input
+                    type="time" name="working-sunday-end" id="working-sunday-end">
+                </div>
+
+              </div>
+              <div class="hours">
+                <span>Horário de Almoço</span>
+                <div class="content">
+                  <input type="time" name="lunch-sunday-init" id="lunch-sunday-init"><span>às</span><input type="time"
+                    name="lunch-sunday-end" id="lunch-sunday-end">
+                </div>
+              </div>
+
+            </div>
+            <!--Agendamento dos horários semanais-->
+
+            <div class="schedule-time">
+              <h3>Segunda-feira</h3>
+              <div class="hours">
+                <span>Horário de funcionamento</span>
+                <div class="content">
+                  <input type="time" name="working-monday-open" id="working-monday-open"><span>às</span><input
+                    type="time" name="working-monday-end" id="working-monday-end">
+                </div>
+
+              </div>
+              <div class="hours">
+                <span>Horário de Almoço</span>
+                <div class="content">
+                  <input type="time" name="working-monday-open" id="working-monday-open"><span>às</span><input
+                    type="time" name="working-monday-end" id="working-monday-end">
+                </div>
+              </div>
+
+            </div>
+            <!--Agendamento dos horários semanais-->
+
+            <div class="schedule-time">
+              <h3>Terça-feira</h3>
+              <div class="hours">
+                <span>Horário de funcionamento</span>
+                <div class="content">
+                  <input type="time" name="working-tuesday-open" id="working-tuesday-open"><span>às</span><input
+                    type="time" name="working-tuesday-end" id="working-tuesday-end">
+                </div>
+
+              </div>
+              <div class="hours">
+                <span>Horário de Almoço</span>
+                <div class="content">
+                  <input type="time" name="working-tuesday-open" id="working-tuesday-open"><span>às</span><input
+                    type="time" name="working-tuesday-end" id="working-tuesday-end">
+                </div>
+              </div>
+
+            </div>
+            <!--Agendamento dos horários semanais-->
+
+            <div class="schedule-time">
+              <h3>Quarta-feira</h3>
+              <div class="hours">
+                <span>Horário de funcionamento</span>
+                <div class="content">
+                  <input type="time" name="working-wednesday-open" id="working-wednesday-open"><span>às</span><input
+                    type="time" name="working-wednesday-end" id="working-wednesday-end">
+                </div>
+
+              </div>
+              <div class="hours">
+                <span>Horário de Almoço</span>
+                <div class="content">
+                  <input type="time" name="working-wednesday-open" id="working-wednesday-open"><span>às</span><input
+                    type="time" name="working-wednesday-end" id="working-wednesday-end">
+                </div>
+              </div>
+
+            </div>
+            <!--Agendamento dos horários semanais-->
+
+            <div class="schedule-time">
+              <h3>Quinta-feira</h3>
+              <div class="hours">
+                <span>Horário de funcionamento</span>
+                <div class="content">
+                  <input type="time" name="working-thursday-open" id="working-thursday-open"><span>às</span><input
+                    type="time" name="working-thursday-end" id="working-thursday-end">
+                </div>
+
+              </div>
+              <div class="hours">
+                <span>Horário de Almoço</span>
+                <div class="content">
+                  <input type="time" name="working-thursday-open" id="working-thursday-open"><span>às</span><input
+                    type="time" name="working-thursday-end" id="working-thursday-end">
+                </div>
+              </div>
+
+            </div>
+            <!--Agendamento dos horários semanais-->
+
+            <div class="schedule-time">
+              <h3>Sexta-feira</h3>
+              <div class="hours">
+                <span>Horário de funcionamento</span>
+                <div class="content">
+                  <input type="time" name="working-friday-open" id="working-friday-open"><span>às</span><input
+                    type="time" name="working-friday-end" id="working-friday-end">
+                </div>
+
+              </div>
+              <div class="hours">
+                <span>Horário de Almoço</span>
+                <div class="content">
+                  <input type="time" name="working-friday-open" id="working-friday-open"><span>às</span><input
+                    type="time" name="working-friday-end" id="working-friday-end">
+                </div>
+              </div>
+
+            </div>
+            <!--Agendamento dos horários semanais-->
+
+            <div class="schedule-time">
+              <h3>Sábado</h3>
+              <div class="hours">
+                <span>Horário de funcionamento</span>
+                <div class="content">
+                  <input type="time" name="working-saturday-open" id="working-saturday-open"><span>às</span><input
+                    type="time" name="working-saturday-end" id="working-saturday-end">
+                </div>
+
+              </div>
+              <div class="hours">
+                <span>Horário de Almoço</span>
+                <div class="content">
+                  <input type="time" name="working-saturday-open" id="working-saturday-open"><span>às</span><input
+                    type="time" name="working-saturday-end" id="working-saturday-end">
+                </div>
+              </div>
+
+            </div>
+            <!--Agendamento dos horários semanais-->
+
+          </div>
+        </section>
+        <!--Horário de serviço-->
+
+        <section>
+          <div class="adress">
+            <h2 class="title">Endereço da Empresa</h2>
+            <div class="form-control-adress">
+              <div class="form">
+                <label for="title">CEP</label>
+                <input type="number" name="CEP" id="CEP" placeholder="00000-000">
+              </div>
+
+              <div class="form">
+                <label for="title">Estado</label>
+                <input type="text" name="state" id="state" placeholder="São Paulo">
+              </div>
+
+              <div class="form">
+                <label for="title">Cidade</label>
+                <input type="text" name="city" id="city" placeholder="São Paulo">
+              </div>
+
+                <div class="form">
+                  <label for="title">Bairro</label>
+                  <input type="text" name="district" id="district" placeholder="Balneário São José">
+                </div>
+
+                <div class="form">
+                  <label for="title">Logradouro</label>
+                  <input type="text" name="public-place" id="public-place" placeholder="Rua">
+                </div>
+
+            </div>
+          </div>
+
+        </section><!--Endereço da empresa-->
+
+        <div class="submit">
+          <button class="btn btn-blue">Alterar</button>
+        </div>
+
+        <img src="../../assets/images/perfilEmpreendedor/girl.svg" width="300px" alt="">
+      </form>
+
+    </div>
+  </main>
+
+
+  <footer class="footer dark">
+    <div class="wrapper">
+      <a href="/"><img src="../../assets/icons/logo.svg" width="120" alt="Logo da Agendaí" /></a>
+      <a href="/">Explore</a>
+      <a href="/">Sobre</a>
+      <a href="/">Contato</a>
+    </div>
+  </footer>
+</body>
+
+</html>
