@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../../styles/global.css" />
+  <link rel="stylesheet" href="../../styles/hotSite/main.css" />
+  <link rel="stylesheet" href="/node_modules/swiper/swiper-bundle.css" />
+  <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+  <title>Hot Site</title>
+</head>
+
+<body>
+  <header class="header dark">
+    <div class="wrapper">
+      <a href="/"><img src="../../assets/icons/logo.svg" width="120" alt="Logo da Agendaí" /></a>
+
+      <nav class="menu">
+        <div class="search-box">
+          <input class="search-txt" name="" type="text" placeholder="O que precisa hoje?" />
+          <a class="search-btn" href="#"><i class="bi bi-search"></i></a>
+        </div>
+
+        <div class="buttons-account">
+          <li><button class="btn btn-blue">Login</button></li>
+          <li><button class="btn btn-transparent">Register</button></li>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div class="swiper wrapper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="../../assets/images/hotSite/barber.jpg" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="../../assets/images/hotSite/cut-hair.jpg" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="../../assets/images/hotSite/hair.jpg" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="../../assets/images/hotSite/blackmen.jpg" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="../../assets/images/hotSite/hair-cut.jpg" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img src="../../assets/images/hotSite/barbershop.jpg" alt="" />
+      </div>
+    </div>
+
+    <div class="swiper-pagination"></div>
+
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+
+  <main>
+    <div class="wrapper">
+      <div class="container">
+        <div class="contents">
+          <!--Serviços-->
+          <section class="services">
+            <div class="contain">
+              <div class="info">
+                <span>Corte de cabelo</span>
+                <div class="value-time">
+                  <p>R$30,00</p>
+                  <p>1h</p>
+                </div>
+              </div>
+            </div>
+            <button onclick="modal()" class="btn btn-blue">Agende</button>
+            </form>
+          </section>
+
+          <section class="services">
+            <div class="contain">
+              <div class="info">
+                <span>Alisamento</span>
+                <div class="value-time">
+                  <p>R$60,00</p>
+                  <p>1h30</p>
+                </div>
+              </div>
+            </div>
+            <button onclick="modal()" class="btn btn-blue">Agende</button>
+            </form>
+          </section>
+
+          <section class="services">
+            <div class="contain">
+              <div class="info">
+                <span>Barba</span>
+                <div class="value-time">
+                  <p>R$40,00</p>
+                  <p>1h</p>
+                </div>
+              </div>
+            </div>
+            <button onclick="modal()" class="btn btn-blue">Agende</button>
+            </form>
+          </section>
+
+          <section class="services">
+            <div class="contain">
+              <div class="info">
+                <span>Sobrancelha</span>
+                <div class="value-time">
+                  <p>R$10,00</p>
+                  <p>30min</p>
+                </div>
+              </div>
+            </div>
+            <button onclick="modal()" class="btn btn-blue">Agende</button>
+            </form>
+          </section>
+
+          <section class="services">
+            <div class="contain">
+              <div class="info">
+                <span>Pézinho</span>
+                <div class="value-time">
+                  <p>R$10,00</p>
+                  <p>30min</p>
+                </div>
+              </div>
+            </div>
+            <button onclick="modal()" class="btn btn-blue">Agende</button>
+            </form>
+          </section>
+
+          <section class="services">
+            <div class="contain">
+              <div class="info">
+                <span>Progressiva</span>
+                <div class="value-time">
+                  <p>R$60,00</p>
+                  <p>1h</p>
+                </div>
+              </div>
+            </div>
+            <button onclick="modal()" class="btn btn-blue">Agende</button>
+            </form>
+          </section>
+
+          <section class="services">
+            <div class="contain">
+              <div class="info">
+                <span>Luzes</span>
+                <div class="value-time">
+                  <p>R$60,00</p>
+                  <p>1h30</p>
+                </div>
+              </div>
+            </div>
+            <button onclick="modal()" class="btn btn-blue">Agende</button>
+            </form>
+          </section>
+
+
+          <!--Serviços-->
+        </div>
+
+        <section class="modal">     
+          <form action="">
+            <div class="exit"><i onclick="exit()" class="bi bi-x-circle"></i></div>
+            <div class="form">
+              <div class="day">
+                <h1>Para qual dia?</h1>
+                <input class="input" type="date" name="date-schedule" id="date-schedule">
+              </div>
+              <div class="time">
+                <h1>Em qual horário?</h1>
+                <input class="input" type="time" name="date-schedule" id="date-schedule">
+              </div>
+              <input class="btn btn-blue" type="submit" value="Agendar">
+            </div>
+        </section><!--Modal-->
+
+        <section class="about">
+          <div class="logo">
+            <img src="../../assets/images/img-central/logo-cavalca.png" alt="">
+            <h3>Cavalca Barbearia</h3>
+          </div>
+
+          <div class="description">
+            <p>Corte seu cabelo com estilo e conforto. Cavalca Barbearia preza pela velocidade no atendimento,
+              organização e conforto, oferecendo a você, cliente, a melhor experiência de corte já vivido.
+              Cavalca Barbearia, orgulho de ser cabeleireiro!</p>
+          </div>
+
+          <div class="social-media">
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </section><!--Sobre-->
+      </div>
+    </div>
+  </main>
+
+  <div class="wrapper">
+
+  </div>
+
+  <footer class="footer dark">
+    <div class="wrapper">
+      <a href="/"><img src="../../assets/icons/logo.svg" width="120" alt="Logo da Agendaí" /></a>
+      <a href="/">Explore</a>
+      <a href="/">Sobre</a>
+      <a href="/">Contato</a>
+    </div>
+  </footer>
+
+
+  <script src="/node_modules/swiper/swiper-bundle.min.js" defer></script>
+  <script src="../../js/hotSite/hotSite.js" defer></script>
+  <script src="../../js/hotSite/main.js"></script>
+</body>
+
+</html>
