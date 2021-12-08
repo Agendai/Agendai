@@ -1,48 +1,46 @@
 @import url("../../styles/global.css");
 
-.texto {
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    padding: 30px;
-}
-
-p {
+.text-style {
     font-size: 1.6rem;
     margin: 10px;
     padding: 10px;
+
+    font-weight: 500;
+
 }
 
-.row {
+.wrapper .text {
+    text-align: center;
+    padding: var(--padding-default);
+
+    color: var(--text-dark);
+}
+
+.wrapper .text h2 {
+    font-size: 2.4rem;
+}
+
+
+.container form{
+    display: flex;
+    justify-content: space-evenly;
     text-align: center;
 }
 
-.column {
-    font-family: 'Quicksand', sans-serif;
-    width: 50%;
-    float: left;
-}
-
-input {
+.container .column input {
     border: 0px;
     background-color: #EDEDED;
     height: 30px;
     width: 300px;
+
+    margin-bottom: 30px;
+
+    padding: 5px;
+
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
 }
 
-.button {
-    text-align: center;
-    display: inline-block;
-    cursor: pointer;
-    padding: 10px 40px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.6rem;
-    font-family:'Montserrat', 'helvetica', sans-serif;
-    font-weight: 600;
-    background-color: var(--btn-bg-blue);
-    color: var(--text-light);
-    margin: 45px;
-}
 
 .button1 {
     text-align: center;
@@ -51,4 +49,15 @@ input {
 .svg1 {
     text-align: right;
     margin-bottom: 30px;
+}
+
+.svg {
+    width: 30%;
+}
+
+
+@media (max-width: 600px) {
+    .container form {
+        display: block;
+    }
 }

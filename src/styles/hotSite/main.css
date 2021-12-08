@@ -1,0 +1,286 @@
+/* Import */
+@import url('../global.css');
+/* Import */
+
+/* Components */
+.container .services .btn {
+  padding: 10px;
+  height: 50px;
+  border-radius: 0 5px 5px 0;
+}
+/* Components */
+
+/* Main */
+main {
+  margin: 120px 0 60px 0;
+}
+
+main .wrapper .container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+/* Serviços */
+.wrapper .services {
+  display: flex;
+
+} 
+
+.wrapper .services .contain {
+    display: flex;
+    width: 65%;
+    height: 50px;
+
+    margin-bottom: 10px;
+    margin-right: 2%;
+}
+
+.contain .info span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 600;
+
+  color: var(--text-dark);
+}
+
+.contain .info .value-time p {
+  font-size: 1.2rem;
+  font-weight: 600;
+
+  color: var(--text-dark);
+
+  text-align: right;
+}
+
+.services .contain .info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 2px solid var(--bg-dark);
+  border-radius: 5px 0 0 5px;
+  padding: 10px;
+}
+/* Serviços */
+
+/* Sobre */
+.wrapper .container .about {
+  border: 2px solid var(--bg-dark);
+  border-radius: 5px;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper .container .about .logo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.wrapper .container .about .logo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.wrapper .container .about .logo img{
+  width: 90px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+
+}
+
+.logo h3 {
+  font-family: 'Montserrat';
+  font-size: 1.7rem;
+
+  color: var(--text-dark);
+}
+
+.description {
+  margin-bottom: 10px;
+}
+
+.description p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: justify;
+  word-spacing: 5px;
+
+  color: var(--text-dark);
+}
+
+.social-media{
+  font-size: 3rem;
+}
+
+.social-media i{
+  margin: 10px;
+  color: var(--text-dark);
+}
+/* Sobre */
+
+
+
+/*Modal*/
+
+.modal {
+  background-color: var(--bg-light);
+
+  width: 350px;
+  max-width: 100%;
+
+  filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.25));
+
+  border-radius: 15px;
+
+  position: absolute;
+  transform: translate(70%, 0%);
+  display: none;
+
+  animation: animate;
+  animation-duration: 800ms;
+}
+
+.modal form .exit {
+  display: flex;
+  justify-content: flex-end;
+
+  font-size: 2rem;
+
+  padding-right: 10px;
+  padding-top: 7px;
+
+  cursor: pointer;
+}
+
+.modal .form {
+  margin:50px;
+}
+
+.modal .form h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+
+  color: var(--text-dark);
+
+  margin: 10px 0;
+  
+
+}
+
+.modal .form .input {
+  font-family: 'Quicksand';
+  font-weight: 500;
+
+  color: #747474;
+  background-color: #D8D8D8;
+  
+  border: none;
+  border-radius: 3px;
+
+  padding: 5px;
+
+  margin-bottom: 10px;
+}
+
+.modal .form .btn {
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+
+  margin-top: 20px;
+}
+
+/*Modal*/
+
+/*Animação*/
+
+@keyframes animate {
+  from{opacity: 1;}
+  from{opacity: 0;}
+}
+
+/*Animação*/
+
+/* Responsividade */
+
+@media (max-width: 768px) {
+
+  main .wrapper .container {
+    grid-template-columns: 3fr 2fr;
+  }
+  .modal {
+    transform: translate(50%, 0);
+  }
+
+  .modal form .exit {
+    font-size: 3rem;
+  }
+
+
+  .social-media{
+    font-size: 2.5rem;
+    padding-top: 20px;
+  }
+  
+} 
+
+@media (max-width: 570px) {
+  main .wrapper .container {
+    display: block;
+  }
+
+  .wrapper .container .contain {
+    width: 100%;
+  }
+  
+  .wrapper .container .about {
+    margin-top: 30px;
+  }
+
+  .description p {
+    margin: 2% 7% ;
+  }
+  .modal {
+    transform: translate(20%, -110%);
+  }
+}
+
+@media (max-width: 460px) {
+  html {
+    font-size: 55%;
+  }
+
+  .modal {
+    transform: translate(10%, -120%);
+  }
+}
+
+@media (max-width: 411px) {
+  html {
+    font-size: 55%;
+  }
+
+  .modal {
+    transform: translate(3%, -120%);
+  }
+}
+
+@media (max-width: 385px) {
+  html {
+    font-size: 55%;
+  }
+
+  .modal {
+    width: 300px;
+    transform: translate(5%, -120%);
+  }
+}
