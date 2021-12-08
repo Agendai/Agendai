@@ -260,6 +260,18 @@ h2 {
     display: none;
   }
 
+  .navbar {
+    display: none;
+  }
+
+  .navbar .wrapper .listNav{
+    display: none;
+  }
+
+  .navbar.active {
+    display: block;
+  }
+
   .navbar .wrapper .listNav{
     display: block;
     position: absolute;
@@ -278,6 +290,7 @@ h2 {
     height: calc(100vh - 68px);
     visibility: visible;
     overflow-y: auto;
+    transition: .5s;
   }
 
    .listNav li a{
