@@ -4,19 +4,27 @@
 
 .card-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 20px;
-  margin: 100px 0;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+  padding: var(--padding-default);
+  grid-gap: 40px;
+  place-items: center;
 }
 
 .card-container .card {
-  margin: 0 auto;
-  max-width: fit-content;
+  display: block;
+  width: max-content;
   padding: 40px 25px;
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 5px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   font-size: 1.6rem;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.card-container .card h3 {
+  font-size: 3.2rem;
 }
 
 .card-container .card:hover,
@@ -31,14 +39,6 @@
 
 .card-container .card .price_container span {
   font-style: italic;
-}
-
-.card-container .card {
-  line-height: 30px;
-}
-
-.card-container .card h3 {
-  font-size: 3.2rem;
 }
 
 
