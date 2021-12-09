@@ -1,0 +1,25 @@
+@import url("../global.css");
+
+
+
+.textpag{
+    padding-top:2.5rem;
+}
+.text{
+ font-size: 1.9rem;
+ font-family: 'Montserrat', 'helvetica'  !important;
+ color: var(--text-dark);
+ text-align: justify;
+
+}
+h2{
+    padding-top: 10rem;
+    font-size: 5rem;
+    padding-left: 2.6rem;
+}
+.divisao{
+    display: grid;
+    padding-top: 3rem;
+    padding-bottom: 18rem;
+      grid-template-columns: 2fr 3fr;
+}

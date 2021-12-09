@@ -1,0 +1,68 @@
+@import url("../global.css");
+
+@media (max-width:961px) {
+    .text {
+        font-size: 1.6rem;
+    }
+}
+@media (max-width:830px) {
+    .text {
+        font-size: 1.4rem;
+    }
+}
+@media (max-width:725px) {
+    h2{
+        padding-top: 5rem;
+        padding-bottom:2rem ;
+    }
+    .text {
+        font-size: 1.8rem;
+        text-align: justify;
+    }
+    section {
+        text-align: center;
+    }
+    .divisao{
+        display: inline;
+        
+
+    }
+    .textpag{
+        
+        padding-top:1.6rem;
+        
+        padding-bottom: 5rem;
+        
+        
+        
+    }
+    .imgpag{
+        padding: 1.6rem;
+    }
+}
+@media (max-width:580px) {
+    .text {
+        font-size: 1.6rem;
+    }
+}
+@media (max-width:520px) {
+    .text {
+        font-size: 1.4rem;
+    }
+}
+@media (max-width:445px) {
+    .text {
+        font-size: 1.2rem;
+    }
+}
+@media (max-width:390px) {
+    .text {
+        font-size: 1rem;
+    }
+}
+@media (max-width:390px) {
+    .text {
+        font-size: 0.8rem;
+        
+    }
+}
