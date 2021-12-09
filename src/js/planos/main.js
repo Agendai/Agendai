@@ -23,9 +23,9 @@ const cards = [
       li1: 'Sistema de agendamento',
       li2: 'Hotsite personalizável',
       li3: '5 cadastros de funcionário',
-      li4: 'Dashboard de finanças',
+      li4: 'Limite de 20 fotos de serviços',
       li5: 'Destaque nos Recomendados',
-      li6: 'Limite de 20 fotos de serviços',
+      li6: 'Dashboard de finanças',
     }
   },
 ];
