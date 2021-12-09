@@ -1,0 +1,21 @@
+@media (max-width:700px) {
+    .text {
+        font-size: 1.4rem;
+    }
+    h2{
+        text-align: center;
+    }
+}
+@media (max-width:500px) {
+    .text {
+        font-size: 1.2rem;
+    }
+    .textpag {
+        padding-bottom: 5rem;
+    }
+}
+@media (max-width:420px) {
+    h2{
+        font-size: 3rem;
+    }
+}
