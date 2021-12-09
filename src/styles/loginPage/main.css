@@ -68,7 +68,7 @@
   margin-bottom: 10px;
 }
 
-#login-page .wrapper .container .main .form-control .reset-password, a{
+#login-page .wrapper .container .main .form-control .reset-password a{
   color: var(--text-blue);
   font-weight: 500;
   font-size: 1.6rem;
