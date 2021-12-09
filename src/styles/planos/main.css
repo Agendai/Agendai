@@ -4,10 +4,9 @@
 
 .card-container {
   display: grid;
-  /* grid-template-columns: repeat(3, 1fr); */
   grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
   padding: var(--padding-default);
-  grid-gap: 40px;
+  grid-gap: 0 40px;
   place-items: center;
 }
 
