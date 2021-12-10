@@ -210,6 +210,19 @@ main .wrapper .container {
 
 /*Animação*/
 
+/* Maps */
+#maps {
+  margin: 40px 0;
+}
+
+#map  {
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+/* Maps */
+
 /* Responsividade */
 
 @media (max-width: 768px) {
@@ -252,6 +265,11 @@ main .wrapper .container {
   .modal {
     transform: translate(20%, -110%);
   }
+
+  #map {
+    width: 350px;
+    height: 250px;
+  }
 }
 
 @media (max-width: 460px) {
@@ -282,5 +300,10 @@ main .wrapper .container {
   .modal {
     width: 300px;
     transform: translate(5%, -120%);
+  }
+
+  #map {
+    width: 250px;
+    height: 200px;
   }
 }
