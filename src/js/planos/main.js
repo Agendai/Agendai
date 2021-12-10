@@ -1,6 +1,5 @@
 const sessionCards = document.querySelector('.card-container');
 const cardEl = document.querySelector('.card');
-const listBenefits = document.querySelector('.benefits-list');
 const createLi = document.createElement('li');
 
 const cards = [
