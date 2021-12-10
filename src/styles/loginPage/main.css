@@ -65,15 +65,13 @@
   outline: none;
   border-style: none;
   padding: 1em;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 #login-page .wrapper .container .main .form-control .reset-password a{
   color: var(--text-blue);
   font-weight: 500;
   font-size: 1.6rem;
-  padding: 0 0.4em;
-  margin-bottom: 10px;
 }
 
 #login-page .wrapper .container .main .form-control span{
@@ -84,7 +82,7 @@
 
 #login-page .wrapper .container .main .form-control .buttons button:first-child{
   margin-right: 1em;
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
 
 #login-page .wrapper .container .main .form-control .google-login {
