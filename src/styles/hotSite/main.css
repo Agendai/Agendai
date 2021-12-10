@@ -210,6 +210,19 @@ main .wrapper .container {
 
 /*Animação*/
 
+/* Maps */
+#maps {
+  margin: 40px 0;
+}
+
+#map  {
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+/* Maps */
+
 /* Responsividade */
 
 @media (max-width: 768px) {
