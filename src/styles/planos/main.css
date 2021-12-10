@@ -1,5 +1,7 @@
 .wrapper .title {
   margin: 40px 0;
+  color: var(--text-dark);
+  font-weight: 700;
 }
 
 .card-container {
@@ -24,6 +26,8 @@
 
 .card-container .card h3 {
   font-size: 3.2rem;
+  color: var(--text-dark);
+  font-weight: 600;
 }
 
 .card-container .card:hover,
