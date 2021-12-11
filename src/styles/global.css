@@ -225,6 +225,10 @@ h2 {
   display: none;
 }
 
+body.active {
+  overflow-y: hidden;
+}
+
 @media (max-width: 600px) {
   #hamburguer {
     display: block;
