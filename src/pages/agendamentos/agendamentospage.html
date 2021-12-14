@@ -8,19 +8,46 @@
   <link rel="stylesheet" href="../../styles/global.css" />
   <link rel="stylesheet" href="../../styles/agendamentos/agendamentoscss.css"/>
  <link rel="stylesheet" href="../../styles/agendamentos/responsivoagenda.css"/>
-  
+ <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
   
   <title>Agendaí</title>
 </head>
 
 <body>
-  <header class="header dark">
-    <div class="wrapper">
-      <a href="/"><img class="logo" src="../../assets/icons/logo.svg" width="120" alt="Logo da Agendaí" /></a>
-      <button  class="btn btn-transparent2"><img class="voltar" src="../agendamentos/icons/Voltar.svg" alt=""></button>
-    </div>
+    <header class="header dark">
+        <div class="wrapper">
+          <a href="/src/index.html"><img src="/src/assets/icons/logo.svg" width="120" alt="Logo da Agendaí" /></a>
+          
+          <button id="hamburguer">
+            <span class="line"></span>
+          </button>
+          <div class="menu">
+            <div class="search-box">
+              <input class="search-txt" name="" type="text" placeholder="O que precisa hoje?">
+              <a class="search-btn" href="#"><i class="bi bi-search"></i></a>
+            </div>
+            
+            <div class="buttons-account">
+              <li><a href="/src/pages/login/login.html"><button class="btn btn-blue">Login</button></a></li>
+              <li><a href="/src/pages/register/register.html"><button class="btn btn-transparent">Register</button></a></li>
+            </div>
+          </div>
+        </div>
+      </header>
 
   </header>
+
+  <nav class="navbar">
+    <div class="wrapper">
+      <ul class="listNav">
+        <li><a href="/src/pages/quem-somos/quem-somos.html">Quem somos</a></li>
+        <li><a href="/src/pages/objetivo/objetivo.html">Objetivo</a></li>
+        <li><a href="/src/pages/como_surgiu/como.html">Como surgiu</a></li>
+        <li><a href="#">Valores</a></li>
+        <li><a href="/src/pages/planos/planos.html">Planos</a></li>
+      </ul>
+    </div>
+  </nav>
 
   <div class="wrapper">
     <main>

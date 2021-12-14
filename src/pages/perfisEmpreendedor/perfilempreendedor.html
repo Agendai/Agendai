@@ -7,22 +7,47 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Quicksand&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
 </header>
 <body>
     <header class="header dark">
         <div class="wrapper">
-            <a href="/"><img src="../../assets/icons/logo.png" alt="Logo da Agendaí" /></a>
-            <nav class="menu">
-                <li><button class="btn btn-blue">Login</button></li>
-                <li><button class="btn btn-transparent">Register</button></li>
-            </nav>
+          <a href="/src/index.html"><img src="/src/assets/icons/logo.svg" width="120" alt="Logo da Agendaí" /></a>
+          
+          <button id="hamburguer">
+            <span class="line"></span>
+          </button>
+          <div class="menu">
+            <div class="search-box">
+              <input class="search-txt" name="" type="text" placeholder="O que precisa hoje?">
+              <a class="search-btn" href="#"><i class="bi bi-search"></i></a>
+            </div>
+            
+            <div class="buttons-account">
+              <li><a href="/src/pages/login/login.html"><button class="btn btn-blue">Login</button></a></li>
+              <li><a href="/src/pages/register/register.html"><button class="btn btn-transparent">Register</button></a></li>
+            </div>
+          </div>
         </div>
-    </header>
+      </header>
+    
+      <nav class="navbar">
+        <div class="wrapper">
+          <ul class="listNav">
+            <li><a href="/src/pages/quem-somos/quem-somos.html">Quem somos</a></li>
+            <li><a href="/src/pages/objetivo/objetivo.html">Objetivo</a></li>
+            <li><a href="/src/pages/como_surgiu/como.html">Como surgiu</a></li>
+            <li><a href="#">Valores</a></li>
+            <li><a href="/src/pages/planos/planos.html">Planos</a></li>
+          </ul>
+        </div>
+      </nav>
+
     <main>
         <div class="wrapper">
             <div class="perfil">
                 <h2>Informações da Empresa</h2>
-                <img src="../../assets/images/perfilEmpreendedor/1.png" alt="icon">
+                <img src="/src/assets/images/perfilEmpreendedor/logo-cavalca.png" alt="icon">
                 <p>Alterar logo</p>
                 <input class="file" type="file">
             </div>
@@ -185,4 +210,5 @@
         </div>
     </footer>
 </body>
+
 </html>
