@@ -17,7 +17,7 @@ const cards = [
   },
   {
     plano: 'Pro',
-    preco: '50,00R$ mês',
+    preco: '50,00R$ por mês',
     beneficios: {
       li1: 'Sistema de agendamento',
       li2: 'Hotsite personalizável',
